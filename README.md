@@ -4,18 +4,20 @@ Iteratively Adjusted Surrogate Variable Analysis (IA-SVA) is a statistical frame
 
 ## Citing IA-SVA
 
-__A robust statistical framework to detect multiple sources of hidden variation in single-cell transcriptomes__, Donghyung Lee, Anthony Cheng, Duygu Ucar, bioRxiv. 2017; doi: https://doi.org/10.1101/151217
+A statistical framework for the robust detection of hidden variation in single cell transcriptomes
+Donghyung Lee, Anthony Cheng, Mohan Bolisetty, Duygu Ucar
+https://www.biorxiv.org/content/early/2018/04/24/151217
 
-## Author
+## Author(s)
 
-Donghyung Lee <donghyung.lee@jax.org> and Anthony Cheng <anthony.cheng@jax.org>
+Donghyung Lee <donghyung.lee@jax.org> , Anthony Cheng <anthony.cheng@jax.org> , and Nathan Lawlor <nathan.lawlor@jax.org>
 
 ## Installation
 
 To install IA-SVA package, start R and enter the following commands:
 
       library(devtools)
-      devtools::install_github("UcarLab/IA-SVA")
+      devtools::install_github("UcarLab/iasva")
 
 
 ## Load the package
@@ -27,20 +29,26 @@ To load this package, enter the following command to the R console:
 
 ## View Vignettes
 
-Click __Quick View__ to view each vignette in a web browser. 
+For instructions on how to use IA-SVA, please see the package vignette.
+
+For additional tutorials, please click __Quick View__ for any of the four examples below to view in a web browser. 
+
+##### Example 1) Detecting hidden heterogeneity in human islet alpha cells   ([Quick View](https://cdn.rawgit.com/dleelab/iasvaExamples/8d06bbd7/inst/doc/detecting_hidden_heterogeneity.html)) 
 
 
-##### Example 1) Detecting hidden heterogeneity in human islet alpha cells   ([Quick View](https://cdn.rawgit.com/dleelab/iasvaExamples/d4d63ce3/inst/doc/detecting_hidden_heterogeneity_iasvaV0.95.html)) 
+##### Example 2) Detecting cell-cycle stage difference in glioblastoma cells   ([Quick View](https://cdn.rawgit.com/dleelab/iasvaExamples/8d06bbd7/inst/doc/hidden_heterogeneity_glioblastoma.html))
 
 
-##### Example 2) Detecting cell-cycle stage difference in glioblastoma cells   ([Quick View](https://cdn.rawgit.com/dleelab/iasvaExamples/d4d63ce3/inst/doc/hidden_heterogeneity_glioblastoma_iasvaV0.95.html))
+##### Example 3) IA-SVA based feature selection improves the performance of clustering algorithms [1]  ([Quick View](https://cdn.rawgit.com/dleelab/iasvaExamples/8d06bbd7/inst/doc/tSNE_post_IA-SVA_3celltypes.html))
 
 
-##### Example 3) IA-SVA based feature selection improves the performance of clustering algorithms [1]  ([Quick View](https://cdn.rawgit.com/dleelab/iasvaExamples/d4d63ce3/inst/doc/tSNE_post_IA-SVA_3celltypes_iasvaV0.95.html))
+##### Example 4) IA-SVA based feature selection improves the performance of clustering algorithms [2]  ([Quick View](https://cdn.rawgit.com/dleelab/iasvaExamples/8d06bbd7/inst/doc/tSNE_post_IA-SVA_Xin_Islets.html))
 
+##### Example 5) Compare IA-SVA to factor analyses methods in terms of their ability to detect marker genes for different cell types [2]  ([Quick View](https://cdn.rawgit.com/dleelab/iasvaExamples/8d06bbd7/inst/doc/Brain_scRNASeq_neuron_vs_oligodendrocyte_single_run.html))
 
-##### Example 4) IA-SVA based feature selection improves the performance of clustering algorithms [2]  ([Quick View](https://cdn.rawgit.com/dleelab/iasvaExamples/d4d63ce3/inst/doc/tSNE_post_IA-SVA_Xin_Islets_iasvaV0.95.html))
+##### Example 6) scRNA-seq Data Simulation [1] ([Quick View](https://cdn.rawgit.com/dleelab/iasvaExamples/b0e03fe3/inst/doc/scRNAseq_simulation.html))
 
+##### Example 7) scRNA-seq Data Simulation [2] ([Quick View](https://cdn.rawgit.com/dleelab/iasvaExamples/b0e03fe3/inst/doc/sim_study_KF_HF_genes_overlap.html))
 
 
 ## Disclaimer of Warranties and Liabilities
